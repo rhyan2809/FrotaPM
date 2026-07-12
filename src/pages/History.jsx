@@ -30,7 +30,6 @@ export const History = () => {
         <p className="text-gray-500 mt-1">Registro completo de serviços realizados</p>
       </div>
 
-      {/* Summary */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="card">
           <h3 className="text-gray-500 text-sm font-medium mb-2">Total de Manutenções</h3>
@@ -50,7 +49,6 @@ export const History = () => {
         </div>
       </div>
 
-      {/* Timeline */}
       <div className="space-y-4">
         {maintenances.map((maintenance) => (
           <div key={maintenance._id} className="card">

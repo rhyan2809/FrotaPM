@@ -10,7 +10,6 @@ export const SettingsPage = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {/* General Settings */}
         <div className="card">
           <div className="flex items-center gap-3 mb-4">
             <Settings className="text-blue-600" size={24} />
@@ -33,7 +32,6 @@ export const SettingsPage = () => {
           </div>
         </div>
 
-        {/* Notifications */}
         <div className="card">
           <div className="flex items-center gap-3 mb-4">
             <Bell className="text-orange-600" size={24} />
@@ -56,7 +54,6 @@ export const SettingsPage = () => {
           </div>
         </div>
 
-        {/* Security */}
         <div className="card">
           <div className="flex items-center gap-3 mb-4">
             <Lock className="text-red-600" size={24} />
@@ -73,7 +70,6 @@ export const SettingsPage = () => {
           </div>
         </div>
 
-        {/* Database */}
         <div className="card">
           <div className="flex items-center gap-3 mb-4">
             <Database className="text-green-600" size={24} />
